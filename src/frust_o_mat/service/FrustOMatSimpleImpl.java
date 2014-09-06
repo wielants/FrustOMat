@@ -1,4 +1,4 @@
-package frust_o_mat;
+package frust_o_mat.service;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

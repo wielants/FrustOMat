@@ -1,4 +1,4 @@
-package frust_o_mat;
+package frust_o_mat.service;
 
 public class NonExistingTopicException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package frust_o_mat;
+package frust_o_mat.service.test;
 
 import static org.hamcrest.CoreMatchers.allOf;
 import static org.hamcrest.CoreMatchers.containsString;
@@ -9,6 +9,10 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import frust_o_mat.service.AlreadyExistingTopicException;
+import frust_o_mat.service.FrustOMat;
+import frust_o_mat.service.NonExistingTopicException;
 
 public abstract class AbstractFrustOMatTest {
 	
