@@ -43,7 +43,7 @@ public class FrustOMatSimpleImpl implements FrustOMat {
 		}
 	}
 
-	private int count(String topic, List<String> votes2) {
+	private int count(String topic, List<String> votes) {
 		int result = 0;
 		for (String eachVote : votes) {
 			if (eachVote.equals(topic))
