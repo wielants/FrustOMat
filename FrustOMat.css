@@ -1,0 +1,21 @@
+html, body, .container
+{
+    height: 100%;
+    min-height: 100%;
+}
+.topic {
+    float: left;
+    width: 30%;
+    height: 10%;
+    background-color: white;
+text-align: center;
+    border: solid 1px #C8C8C8;
+    -moz-border-radius: 25px;
+    width :45%;
+    height : auto;
+    float:left;
+    margin-left: 10px;
+    margin-top:20px;
+    box-shadow: 3px 3px 3px 0px #C8C8C8;
+    cursor:pointer;
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<title>aussagekr&auml;ftiger Titel der Seite</title>
+</head>
+<body>
+	<style type="text/css">@import "FrustOMat.css";</style>
+	<form action="http://localhost:8080/FrustOMat/index.html">
+		<input type="hidden" name="a" value="1" />
+		<div class="topic">
+			<input type="submit" value="Das gef&auml;llt mir nicht!">
+		</div>
+	</form>
+	
+	<form action="http://localhost:8080/FrustOMat/index.html" method="get">
+	    <input type="hidden" name="a" value="1" />
+    	<div class="topic" onClick="javascript:this.parentNode.submit();">
+    	Das gef&auml;llt mir nicht!
+    	</div>
+	</form>
+</body>
+</html>
